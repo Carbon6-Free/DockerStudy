@@ -6,7 +6,8 @@ https://docs.docker.com/desktop/install/mac-install/
 # 3.
 이미지를 실행하는 것 - 컨데이너
 이미지도 여러개의 컨테이너 가질 수 있음
-도커에서 이미지를 받는 것 - pull https://docs.docker.com/reference/cli/docker/image/pull/
+도커에서 이미지를 받는 것 - pull  
+https://docs.docker.com/reference/cli/docker/image/pull/ 
 이미지를 실행시키는 것 - run
 컨테이너 안에 포함된 실행되도록 조치된 프로그램 사용
 
@@ -63,13 +64,13 @@ docker rmi httpd
 web server
 browser
 
-port 80 기본?
+port 80 기본?적으로 많이 사용?  
 
 docker host와 container port가 연결되어있어야함
 ex. docker run -p 80:80 httpd
    포트:컨테이너
-ex. 8000으로 바뀐다면
-   docker run -p 8000:80 httpd
+ex. 8000으로 바뀐다면  
+   docker run -p 8000:80 httpd  
 
 docker pull httpd
 ws2
